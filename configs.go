@@ -265,7 +265,7 @@ func (CloseConfig) params() (Params, error) {
 // BaseChat is base type for all chat config types.
 type BaseChat struct {
 	ChatID                   int64 // required
-	MessageThreadID          int64
+	MessageThreadID          int
 	ChannelUsername          string
 	ProtectContent           bool
 	ReplyToMessageID         int
